@@ -4,14 +4,14 @@ from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
 # For GridSearchCV and RandomSearchCV
-from sklearn import model_selection as ms 
+from sklearn import model_selection as ms
 # For modeling
-from sklearn import linear_model as lm 
+from sklearn import linear_model as lm
 from sklearn import ensemble as ens
 # For scoring
 from sklearn import metrics
 
-import sacred 
+import sacred
 ex = sacred.Experiment()
 
 
