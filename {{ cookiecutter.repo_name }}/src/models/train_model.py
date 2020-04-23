@@ -13,6 +13,7 @@ from sklearn import metrics
 
 import sacred
 ex = sacred.Experiment()
+ex.observers.append(sacred.observers.FileStorageObserver('experiments'))
 
 
 @ex.main
