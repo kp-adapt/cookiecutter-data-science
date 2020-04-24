@@ -3,6 +3,8 @@ import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
+import pandas as pd 
+import numpy as np
 
 def main(input_filepath, output_filepath):
     """ Runs data processing scripts to turn raw data from (../raw) into

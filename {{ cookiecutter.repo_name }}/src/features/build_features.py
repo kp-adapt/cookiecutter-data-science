@@ -3,6 +3,8 @@ import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
+import pandas as pd 
+import numpy as np
 # For feature scaling
 from sklearn import preprocessing as pp
 

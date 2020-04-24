@@ -3,6 +3,8 @@ import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 
+import pandas as pd 
+import numpy as np
 # For GridSearchCV and RandomSearchCV
 from sklearn import model_selection as ms
 # For modeling
