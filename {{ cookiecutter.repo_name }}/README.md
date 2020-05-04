@@ -51,6 +51,37 @@ Project Organization
             └── visualize.py
     
 
+## Cycle 1
+
+### Business Understanding
+Your text here.
+
+### Data Understanding
+Your text here.
+
+### Data Preparation/Sources
+Your text here.
+
+#### Feature Engineering
+Your text here.
+
+### Modeling
+Your text here.
+
+### Evaluation
+Your text here.
+
+#### Train/Dev/Test Split
+Your text here.
+
+### Deployment
+Your text here.
+
+### Maintenance Requirements
+Your text here.
+
+### Next Steps
+Your text here.
 
 --------
 
