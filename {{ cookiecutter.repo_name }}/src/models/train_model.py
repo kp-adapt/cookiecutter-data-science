@@ -5,13 +5,17 @@ from dotenv import find_dotenv, load_dotenv
 
 import pandas as pd 
 import numpy as np
-# For GridSearchCV and RandomSearchCV
-from sklearn import model_selection as ms
-# For modeling
-from sklearn import linear_model as lm
-from sklearn import ensemble as ens
+import sklearn as skl
+# For GridSearchCV and RandomSearchCV:
+# skl.model_selection.GridSearchCV
+# skl.model_selection.RandomizedSearchCV
+
+# For modeling:
+# skl.linear_model
+# skl.ensemble
+
 # For scoring
-from sklearn import metrics
+# skl.metrics
 
 import sacred
 ex = sacred.Experiment()
