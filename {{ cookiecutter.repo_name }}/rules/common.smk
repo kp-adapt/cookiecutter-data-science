@@ -1,10 +1,15 @@
 rule requirements:
-    shell:
-        """
-        python -m pip install -U pip setuptools wheel
-        python -m pip install -r requirements.txt
-        """
-
+    run:
+        correct_env_bool = True
+        try:
+            shell("python test_environment.py")
+        except:
+            correct_env_bool = False
+            print("ERROR: packages were not installed. Incorrect env configuration. See test_environment.py")
+        
+        if correct_env_bool:
+            shell("pip install -U pip setuptools wheel")
+            shell("pip install -r requirements.txt")
 rule clean:
     shell:
         """
