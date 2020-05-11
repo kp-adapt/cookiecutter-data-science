@@ -1,0 +1,5 @@
+name: primary_env
+dependencies:
+- pip
+- pip:
+  - -r file:requirements.txt
