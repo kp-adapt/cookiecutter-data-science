@@ -8,3 +8,5 @@ python-dotenv>=0.5.1
 yapf
 sacred
 sklearn
+pandas
+numpy
