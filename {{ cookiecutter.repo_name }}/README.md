@@ -53,37 +53,83 @@ Project Organization
             └── visualize.py
     
 
-## Cycle 1
+# Model ID: 12345678
+---
+## Metadata:
+Model Name          : Business Development Go/Get  
+Current Epicycle    : 1  
+Business Owner      : Travis Shearer  
+Product Ops         : Danielle Maddux  
+ML Ops              : Austin Madert  
+Content Refs        : CRM_001.CRM_00003  
 
+---
+### HAD Analysis
+
+#### Key Hypotheses         : 'document here'  
+#### Key Assumptions        : 'document here'  
+#### Data Set Limitations   : 'document here'   
+
+---
 ### Business Understanding
-Your text here.
 
-### Data Understanding
-Your text here.
+#### Business Requirements : <link to business requirements doc>
 
-### Data Preparation/Sources
-Your text here.
+##### Your Text Here.
+---
+### Data Understanding/Sourcing
 
+#### Data Sources       :  'document/link here'          
+#### Data Acquisition   :  'document/link here' 
+  
+##### Your Text Here.
+---
+### Data Preparation
+
+#### Data Preparation   : 'document/link here'   
+#### Training Record    : 'document/link here'  
+#### Train/Dev/Test Split    : Training = 14,000; Dev = 0; Test = 1,0000   
+  
+##### Your Text Here.
+---
 #### Feature Engineering
-Your text here.
 
+#### Metadata Tables        : 'i.e. metadata_project'
+#### Engineered Features    :  'document/link here' 
+
+##### Your Text Here.
+
+---
 ### Modeling
-Your text here.
 
+#### Model Type     : 'document/link here' 
+    
+##### Your Text Here.
+
+---
 ### Evaluation
-Your text here.
 
-#### Train/Dev/Test Split
-Your text here.
+#### Target Metric  : 'document/link here' 
+#### Known Bias     : 'document/link here' 
 
-### Deployment
-Your text here.
+##### Your Text Here. 
 
-### Maintenance Requirements
-Your text here.
+---
+### Product Ops Considerations
 
+#### Production CommitID        : 1213232319prnfpf3109-hf30fj1039j0  
+#### Reporting/Visualization    : <link to script here>  
+
+##### """ Document context as to how user interprets model outputs for decision-making purposes """ (probably ownder by Product Ops)
+
+---
+### Maintenance
+Not applicable.  
+
+---
 ### Next Steps
-Your text here.
+Your Text Here.
+
 
 --------
 
