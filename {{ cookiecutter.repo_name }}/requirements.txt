@@ -10,3 +10,4 @@ sacred
 sklearn
 pandas
 numpy
+apache-airflow[mssql]

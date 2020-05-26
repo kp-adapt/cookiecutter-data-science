@@ -8,7 +8,6 @@ Project Organization
 
     ├── LICENSE
     ├── snakefile          <- snakefile with workflow automation utils
-    ├── Makefile           <- Makefile with commands like `make data` or `make train` **For Linux/OSX**
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -28,8 +27,6 @@ Project Organization
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
-    |
-    ├── rules              <- snakemake rules folder for easy management of different concerns
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
@@ -49,9 +46,10 @@ Project Organization
         │   ├── predict_model.py
         │   └── train_model.py
         │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-            └── visualize.py
-    
+        ├── visualization  <- Scripts to create exploratory and results oriented visualizations
+        │   └── visualize.py
+        └──workflow.py     <- Script for running airflow
+        
 
 # Model ID: 12345678
 ---
