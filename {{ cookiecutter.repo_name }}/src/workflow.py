@@ -60,12 +60,7 @@ t2 = operators.BashOperator(
     dag=dag,
 )
 
-templated_command = "Turn the below into a string for use."
-{% for i in range(5) %}
-    echo {{ ds }}
-    echo {{ macros.ds_add(ds, 7)}}
-    echo {{ params.my_param }}
-{% endfor %}
+templated_command = "echo hello world"
 
 
 t3 = operators.BashOperator(
