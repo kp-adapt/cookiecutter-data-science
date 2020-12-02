@@ -32,6 +32,12 @@ $ conda install cookiecutter
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
 
+### To add the project to Github
+------------
+Create a repo on Github with the same name as the local project set up above and follow these instructions:
+https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+
 ### The resulting directory structure
 ------------
 
